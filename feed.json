@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://bilool.github.io/publii/thunderbird-maj-32bits-vers-64bits.html",
+            "url": "https://bilool.github.io/publii/thunderbird-maj-32bits-vers-64bits.html",
+            "title": "Thunderbird MAJ 32bits vers 64bits",
+            "summary": "Je viens de faire la mise à jour de Thunderbird 60 32&hellip;",
+            "content_html": "<p>Je viens de faire la mise à jour de Thunderbird 60 32 bits vers Thunderbird 68 en 64 bits sous windows 10. Et bim ! C'est le drame : le logiciel redémarre comme neuf... Tous mes paramétrages ont disparu.</p>\n<p><img class=\"post__image\" src=\"https://bilool.github.io/publii/media/posts/3/thunderbird-68.1.0.jpg\" alt=\"screenshot-00\" width=\"793\" height=\"327\"></p>\n<p>Bref, je rassure l'auditoire tout est bien là mais il faut indiquer à Thunderbird quel profil par défaut utiliser. Pour ce faire, voici la marche à suivre :</p>\n<ol>\n<li>Cliquez sur le \"?\" dans les menus déroulants de Thunderbird.<br><img class=\"post__image\" src=\"https://bilool.github.io/publii/media/posts/3/Thunderbird-01.png\" alt=\"screenshot-01\" width=\"274\" height=\"567\"></li>\n<li>Cliquez sur \"Information de dépannage\"<br><img class=\"post__image\" src=\"https://bilool.github.io/publii/media/posts/3/Thunderbird-02.png\" alt=\"screenshot-02\" width=\"274\" height=\"566\"></li>\n<li>Dans la section \"Paramètres de base de l'application\", cliquez sur \"about:profiles\" à la ligne \"Profils\"<br><img class=\"post__image\" src=\"https://bilool.github.io/publii/media/posts/3/Thunderbird-03.png\" alt=\"screenshot-03\" width=\"346\" height=\"647\"></li>\n<li>A priori, deux profils s'affichent : le nouveau (Profil : default-release) qui est vierge et l'ancien (Profil : default) provenant de l'ancienne installation. Il suffit donc de définir l'ancien comme profil par défaut en cliquant sur le bouton \"Définir comme profil par défaut\"<br><img class=\"post__image\" src=\"https://bilool.github.io/publii/media/posts/3/Thunderbird-04.png\" alt=\"screenshot-04\" width=\"723\" height=\"40\"></li>\n</ol>\n<p>Voilà, enjoy, tout rentre dans l'ordre, l'ancien profil est de retour.</p>\n<p>Vous pouvez en profiter pour désinstaller la version 32bits.</p>",
+            "image": "https://bilool.github.io/publii/media/posts/3/featured_mailbox.jpg",
+            "author": {
+                "name": "yobi"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-09-15T16:48:28+02:00",
+            "date_modified": "2019-09-15T16:48:28+02:00"
+        },
+        {
             "id": "https://bilool.github.io/publii/publii-generateur-de-sites-statiques.html",
             "url": "https://bilool.github.io/publii/publii-generateur-de-sites-statiques.html",
             "title": "Publii, générateur de sites statiques",
@@ -22,7 +37,7 @@
             "tags": [
             ],
             "date_published": "2019-06-28T10:37:08+02:00",
-            "date_modified": "2019-06-28T10:40:56+02:00"
+            "date_modified": "2019-06-29T14:31:47+02:00"
         },
         {
             "id": "https://bilool.github.io/publii/une-histoire-et-oli.html",
@@ -37,7 +52,7 @@
             "tags": [
             ],
             "date_published": "2019-06-28T09:59:27+02:00",
-            "date_modified": "2019-06-28T10:51:03+02:00"
+            "date_modified": "2019-06-29T14:32:17+02:00"
         }
     ]
 }
