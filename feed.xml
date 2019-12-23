@@ -3,12 +3,49 @@
     <title>yobyob.org</title>
     <link href="https://bilool.github.io/publii/feed.xml" rel="self" />
     <link href="https://bilool.github.io/publii" />
-    <updated>2019-09-15T16:58:29+02:00</updated>
+    <updated>2019-12-23T13:40:21+01:00</updated>
     <author>
         <name>yobi</name>
     </author>
     <id>https://bilool.github.io/publii</id>
 
+    <entry>
+        <title>Oneplus 6 &amp; AndroidAuto &#x3D; Onemorebug</title>
+        <author>
+            <name>yobi</name>
+        </author>
+        <link href="https://bilool.github.io/publii/oneplus-6-and-androidauto-onemorebug.html"/>
+        <id>https://bilool.github.io/publii/oneplus-6-and-androidauto-onemorebug.html</id>
+
+        <updated>2019-12-23T13:40:13+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://bilool.github.io/publii/media/posts/4/smartphone-517450_1920.jpg" alt="" />
+                     En fouillant un peu, il s'est avéré que ces crashs et&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://bilool.github.io/publii/media/posts/4/smartphone-517450_1920.jpg" alt="" />
+                <p> </p>
+En changeant de voiture, j'ai pu expérimenter les joies d'AndroidAuto avec l'écran déporté de mon autoradio de série. Malheureusement pour moi les connexions n'étaient pas stables et capricieuses.
+<p>En fouillant un peu, il s'est avéré que ces crashs et lenteurs du Oneplus 6 avec Android Auto étaient apparemment dus à un soucis avec les applications parallèles et un "utilisateur 999" qui est créé par Oxygen Os.</p>
+<p>Bref, j'ai trouvé la solution à tous mes soucis sur <a href="https://support.google.com/androidauto/thread/4455995?msgid=15130627" target="_blank" class="externalLink ProxyLink"  rel="nofollow noopener noreferrer">ce post.</a> Voir le billet de "johr claessens" :</p>
+<p><img class="post__image" src="https://bilool.github.io/publii/media/posts/4/Screenshot_2019-12-06-Android-auto-not-working-on-Oneplus6-phone-Android-Auto-Help.png" alt="issue bugs androidauto oneplus 6" width="830" height="232"></p>
+<p>La marche à suivre est donc donnée via <a href="https://actuallydavide.com/blog/2019/04/13/how-to-remove-work-profiles-on-oneplus-devices/" target="_blank" class="externalLink ProxyLink"  rel="nofollow noopener noreferrer">le lien</a> dans son post. Elle est assez simple puisqu'elle consiste à supprimer le "user 999" via ADB et à désactiver les applications parallèles depuis l'interface du O+6.</p>
+<p>Je la remets ici en FR :</p>
+<ol>
+<li>Activer le débogage USB sur votre O+6</li>
+<li>Connecter le O+6 au PC</li>
+<li>Lancer une invite de commande depuis le dossier "Plateforms-tools" sur le PC</li>
+<li>Lister les appareils connectés en tapant la commande <code>adb devices</code></li>
+<li>Si l'appareil est reconnu, lister les utilisateurs <code>adb shell pm list users</code></li>
+<li>Supprimer l'utilisateur <code>999 adb shell pm remove-user 999</code></li>
+</ol>
+<p>Bref, pour moi ça a été le jour et la nuit → plus de crashs d'android auto au lancement sur mon O+6 et une reconnaissance instantanée dans ma voiture avec l'écran déporté.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Thunderbird MAJ 32bits vers 64bits</title>
         <author>
@@ -16,6 +53,10 @@
         </author>
         <link href="https://bilool.github.io/publii/thunderbird-maj-32bits-vers-64bits.html"/>
         <id>https://bilool.github.io/publii/thunderbird-maj-32bits-vers-64bits.html</id>
+            <category term="thunderbird"/>
+            <category term="email"/>
+            <category term="64bits"/>
+            <category term="32bits"/>
 
         <updated>2019-09-15T16:58:22+02:00</updated>
             <summary>
@@ -48,6 +89,8 @@
         </author>
         <link href="https://bilool.github.io/publii/publii-generateur-de-sites-statiques.html"/>
         <id>https://bilool.github.io/publii/publii-generateur-de-sites-statiques.html</id>
+            <category term="web"/>
+            <category term="tech"/>
 
         <updated>2019-06-29T14:31:47+02:00</updated>
             <summary>
@@ -74,6 +117,9 @@
         </author>
         <link href="https://bilool.github.io/publii/une-histoire-et-oli.html"/>
         <id>https://bilool.github.io/publii/une-histoire-et-oli.html</id>
+            <category term="web"/>
+            <category term="culture"/>
+            <category term="audio"/>
 
         <updated>2019-06-29T14:32:17+02:00</updated>
             <summary>

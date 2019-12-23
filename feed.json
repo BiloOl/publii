@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://bilool.github.io/publii/oneplus-6-and-androidauto-onemorebug.html",
+            "url": "https://bilool.github.io/publii/oneplus-6-and-androidauto-onemorebug.html",
+            "title": "Oneplus 6 &amp; AndroidAuto &#x3D; Onemorebug",
+            "summary": " En fouillant un peu, il s'est avéré que ces crashs et&hellip;",
+            "content_html": "<p> </p>\nEn changeant de voiture, j'ai pu expérimenter les joies d'AndroidAuto avec l'écran déporté de mon autoradio de série. Malheureusement pour moi les connexions n'étaient pas stables et capricieuses.\n<p>En fouillant un peu, il s'est avéré que ces crashs et lenteurs du Oneplus 6 avec Android Auto étaient apparemment dus à un soucis avec les applications parallèles et un \"utilisateur 999\" qui est créé par Oxygen Os.</p>\n<p>Bref, j'ai trouvé la solution à tous mes soucis sur <a href=\"https://support.google.com/androidauto/thread/4455995?msgid=15130627\" target=\"_blank\" class=\"externalLink ProxyLink\"  rel=\"nofollow noopener noreferrer\">ce post.</a> Voir le billet de \"johr claessens\" :</p>\n<p><img class=\"post__image\" src=\"https://bilool.github.io/publii/media/posts/4/Screenshot_2019-12-06-Android-auto-not-working-on-Oneplus6-phone-Android-Auto-Help.png\" alt=\"issue bugs androidauto oneplus 6\" width=\"830\" height=\"232\"></p>\n<p>La marche à suivre est donc donnée via <a href=\"https://actuallydavide.com/blog/2019/04/13/how-to-remove-work-profiles-on-oneplus-devices/\" target=\"_blank\" class=\"externalLink ProxyLink\"  rel=\"nofollow noopener noreferrer\">le lien</a> dans son post. Elle est assez simple puisqu'elle consiste à supprimer le \"user 999\" via ADB et à désactiver les applications parallèles depuis l'interface du O+6.</p>\n<p>Je la remets ici en FR :</p>\n<ol>\n<li>Activer le débogage USB sur votre O+6</li>\n<li>Connecter le O+6 au PC</li>\n<li>Lancer une invite de commande depuis le dossier \"Plateforms-tools\" sur le PC</li>\n<li>Lister les appareils connectés en tapant la commande <code>adb devices</code></li>\n<li>Si l'appareil est reconnu, lister les utilisateurs <code>adb shell pm list users</code></li>\n<li>Supprimer l'utilisateur <code>999 adb shell pm remove-user 999</code></li>\n</ol>\n<p>Bref, pour moi ça a été le jour et la nuit → plus de crashs d'android auto au lancement sur mon O+6 et une reconnaissance instantanée dans ma voiture avec l'écran déporté.</p>",
+            "image": "https://bilool.github.io/publii/media/posts/4/smartphone-517450_1920.jpg",
+            "author": {
+                "name": "yobi"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-12-23T13:40:13+01:00",
+            "date_modified": "2019-12-23T13:40:13+01:00"
+        },
+        {
             "id": "https://bilool.github.io/publii/thunderbird-maj-32bits-vers-64bits.html",
             "url": "https://bilool.github.io/publii/thunderbird-maj-32bits-vers-64bits.html",
             "title": "Thunderbird MAJ 32bits vers 64bits",
@@ -20,6 +35,10 @@
                 "name": "yobi"
             },
             "tags": [
+                   "thunderbird",
+                   "email",
+                   "64bits",
+                   "32bits"
             ],
             "date_published": "2019-09-15T16:48:28+02:00",
             "date_modified": "2019-09-15T16:58:22+02:00"
@@ -35,6 +54,8 @@
                 "name": "yobi"
             },
             "tags": [
+                   "web",
+                   "tech"
             ],
             "date_published": "2019-06-28T10:37:08+02:00",
             "date_modified": "2019-06-29T14:31:47+02:00"
@@ -50,6 +71,9 @@
                 "name": "yobi"
             },
             "tags": [
+                   "web",
+                   "culture",
+                   "audio"
             ],
             "date_published": "2019-06-28T09:59:27+02:00",
             "date_modified": "2019-06-29T14:32:17+02:00"
