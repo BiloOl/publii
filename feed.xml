@@ -3,7 +3,7 @@
     <title>yobyob.org</title>
     <link href="https://bilool.github.io/publii/feed.xml" rel="self" />
     <link href="https://bilool.github.io/publii" />
-    <updated>2019-12-23T13:41:24+01:00</updated>
+    <updated>2019-12-23T13:44:07+01:00</updated>
     <author>
         <name>yobi</name>
     </author>
@@ -16,8 +16,13 @@
         </author>
         <link href="https://bilool.github.io/publii/oneplus-6-and-androidauto-onemorebug.html"/>
         <id>https://bilool.github.io/publii/oneplus-6-and-androidauto-onemorebug.html</id>
+            <category term="tech"/>
+            <category term="oneplus"/>
+            <category term="audio"/>
+            <category term="androidauto"/>
+            <category term="android"/>
 
-        <updated>2019-12-23T13:40:13+01:00</updated>
+        <updated>2019-12-23T13:43:58+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://bilool.github.io/publii/media/posts/4/smartphone-517450_1920.jpg" alt="" />
