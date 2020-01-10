@@ -10,6 +10,23 @@
     },
     "items": [
         {
+            "id": "https://bilool.github.io/publii/firefox-masquer-automatiquement-la-barre-personnelle.html",
+            "url": "https://bilool.github.io/publii/firefox-masquer-automatiquement-la-barre-personnelle.html",
+            "title": "Firefox : masquer automatiquement la barre personnelle",
+            "summary": "Le petit bout de code qui va bien à mettre dans le&hellip;",
+            "content_html": "<p>Le petit bout de code qui va bien à mettre dans le fichier <a href=\"https://www.howtogeek.com/334716/how-to-customize-firefoxs-user-interface-with-userchrome.css/\" title=\"éditer chrome.css\">chrome.css</a> de Firefox pour afficher / masquer automatiquement la barre personnelle lorsqu'on pointe sur un onglet.</p>\n<p><code>/* AUTOHIDE BOOKMARKS */<br><br>#PersonalToolbar{<br>margin-top: -30px !important;<br>transition: margin 0.1s linear !important;<br>position: fixed !important;<br>width: 100%;<br>}<br>#navigator-toolbox:hover #PersonalToolbar{<br>margin-top: 0px !important;<br>}<br>#nav-bar { <br>z-index: 1 !important;}#PersonalToolbar {margin-top: -23px !important;transition: all 0.4s ease 0s !important;}#navigator-toolbox:hover&gt;#PersonalToolbar {margin-top: 0px !important;transition: all 0.4s ease 0s !important; <br>}</code></p>\n<p>Pratique.</p>",
+            "image": "https://bilool.github.io/publii/media/posts/6/featured_firefox.jpg",
+            "author": {
+                "name": "yobi"
+            },
+            "tags": [
+                   "firefox",
+                   "code"
+            ],
+            "date_published": "2020-01-10T09:23:18+01:00",
+            "date_modified": "2020-01-10T09:23:18+01:00"
+        },
+        {
             "id": "https://bilool.github.io/publii/oneplus-6-and-androidauto-onemorebug.html",
             "url": "https://bilool.github.io/publii/oneplus-6-and-androidauto-onemorebug.html",
             "title": "Oneplus 6 &amp; AndroidAuto &#x3D; Onemorebug",

@@ -3,12 +3,38 @@
     <title>yobyob.org</title>
     <link href="https://bilool.github.io/publii/feed.xml" rel="self" />
     <link href="https://bilool.github.io/publii" />
-    <updated>2019-12-23T13:50:12+01:00</updated>
+    <updated>2020-01-10T09:23:26+01:00</updated>
     <author>
         <name>yobi</name>
     </author>
     <id>https://bilool.github.io/publii</id>
 
+    <entry>
+        <title>Firefox : masquer automatiquement la barre personnelle</title>
+        <author>
+            <name>yobi</name>
+        </author>
+        <link href="https://bilool.github.io/publii/firefox-masquer-automatiquement-la-barre-personnelle.html"/>
+        <id>https://bilool.github.io/publii/firefox-masquer-automatiquement-la-barre-personnelle.html</id>
+            <category term="firefox"/>
+            <category term="code"/>
+
+        <updated>2020-01-10T09:23:18+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://bilool.github.io/publii/media/posts/6/featured_firefox.jpg" alt="" />
+                    Le petit bout de code qui va bien à mettre dans le&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://bilool.github.io/publii/media/posts/6/featured_firefox.jpg" alt="" />
+                <p>Le petit bout de code qui va bien à mettre dans le fichier <a href="https://www.howtogeek.com/334716/how-to-customize-firefoxs-user-interface-with-userchrome.css/" title="éditer chrome.css">chrome.css</a> de Firefox pour afficher / masquer automatiquement la barre personnelle lorsqu'on pointe sur un onglet.</p>
+<p><code>/* AUTOHIDE BOOKMARKS */<br><br>#PersonalToolbar{<br>margin-top: -30px !important;<br>transition: margin 0.1s linear !important;<br>position: fixed !important;<br>width: 100%;<br>}<br>#navigator-toolbox:hover #PersonalToolbar{<br>margin-top: 0px !important;<br>}<br>#nav-bar { <br>z-index: 1 !important;}#PersonalToolbar {margin-top: -23px !important;transition: all 0.4s ease 0s !important;}#navigator-toolbox:hover&gt;#PersonalToolbar {margin-top: 0px !important;transition: all 0.4s ease 0s !important; <br>}</code></p>
+<p>Pratique.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Oneplus 6 &amp; AndroidAuto &#x3D; Onemorebug</title>
         <author>
