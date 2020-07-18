@@ -3,12 +3,45 @@
     <title>yobyob.org</title>
     <link href="https://bilool.github.io/publii/feed.xml" rel="self" />
     <link href="https://bilool.github.io/publii" />
-    <updated>2020-01-10T09:49:40+01:00</updated>
+    <updated>1970-01-01T01:00:00+01:00</updated>
     <author>
         <name>yobi</name>
     </author>
     <id>https://bilool.github.io/publii</id>
 
+    <entry>
+        <title>Pépites vidéo-ludiques</title>
+        <author>
+            <name>yobi</name>
+        </author>
+        <link href="https://bilool.github.io/publii/pepites-video-ludiques.html"/>
+        <id>https://bilool.github.io/publii/pepites-video-ludiques.html</id>
+            <category term="video game"/>
+            <category term="tech"/>
+            <category term="jeu vidéo"/>
+
+        <updated>2020-07-18T13:02:27+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://bilool.github.io/publii/media/posts/7/featured-space.jpg" alt="" />
+                    Deux petits jeux auxquels je me suis adonné via le GAME PASS&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://bilool.github.io/publii/media/posts/7/featured-space.jpg" alt="" />
+                <p>Deux petits jeux auxquels je me suis adonné via le <a href="https://www.microsoft.com/fr-fr/p/xbox-game-pass-ultimate/cfq7ttc0khs0?activetab=pivot%3aoverviewtab">GAME PASS ULTIMATE de Microsoft</a>.</p>
+<p>Pour faire bref : ce n'est pas de l'action pure et dure mais de l'exploration dans des espaces confinés (l'espace l'imposant) dans lesquels on progresse en résolvant diverses énigmes. Les deux jeux se bouclent assez rapidement et sont issus de la scène indépendante.</p>
+<h2>Deliver Us The Moon</h2>
+<p>On y incarne un personnage qui est chargé de comprendre et de remettre en route le système d'énergie lunaire alimentant une terre ravagée par les changements climatiques.</p>
+<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/wX6Zszry1ag" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
+<h2>Observation</h2>
+<p>On y incarne une IA, un peu à la mode de Hal dans 2001 Space Odyssey. C'est assez prenant et le scénario ne laisse pas de temps mort.</p>
+<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/FW3zuScqSHU" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
+<p>Voilà, ça change de l'ordinaire et les thématiques traitées ne m'ont pas laissé insensible.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Firefox : masquer automatiquement la barre personnelle</title>
         <author>
@@ -19,7 +52,7 @@
             <category term="firefox"/>
             <category term="code"/>
 
-        <updated>2020-01-10T09:30:57+01:00</updated>
+        <updated>2020-07-18T13:02:27+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://bilool.github.io/publii/media/posts/6/featured_firefox.jpg" alt="" />
@@ -49,7 +82,7 @@
             <category term="androidauto"/>
             <category term="android"/>
 
-        <updated>2019-12-23T13:43:58+01:00</updated>
+        <updated>2020-07-18T13:02:27+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://bilool.github.io/publii/media/posts/4/smartphone-517450_1920.jpg" alt="" />
@@ -62,9 +95,9 @@
                 <p> </p>
 En changeant de voiture, j'ai pu expérimenter les joies d'AndroidAuto avec l'écran déporté de mon autoradio de série. Malheureusement pour moi les connexions n'étaient pas stables et capricieuses.
 <p>En fouillant un peu, il s'est avéré que ces crashs et lenteurs du Oneplus 6 avec Android Auto étaient apparemment dus à un soucis avec les applications parallèles et un "utilisateur 999" qui est créé par Oxygen Os.</p>
-<p>Bref, j'ai trouvé la solution à tous mes soucis sur <a href="https://support.google.com/androidauto/thread/4455995?msgid=15130627" target="_blank" class="externalLink ProxyLink"  rel="nofollow noopener noreferrer">ce post.</a> Voir le billet de "johr claessens" :</p>
-<p><img class="post__image" src="https://bilool.github.io/publii/media/posts/4/Screenshot_2019-12-06-Android-auto-not-working-on-Oneplus6-phone-Android-Auto-Help.png" alt="issue bugs androidauto oneplus 6" width="830" height="232"></p>
-<p>La marche à suivre est donc donnée via <a href="https://actuallydavide.com/blog/2019/04/13/how-to-remove-work-profiles-on-oneplus-devices/" target="_blank" class="externalLink ProxyLink"  rel="nofollow noopener noreferrer">le lien</a> dans son post. Elle est assez simple puisqu'elle consiste à supprimer le "user 999" via ADB et à désactiver les applications parallèles depuis l'interface du O+6.</p>
+<p>Bref, j'ai trouvé la solution à tous mes soucis sur <a href="https://support.google.com/androidauto/thread/4455995?msgid=15130627" target="_blank" class="externalLink ProxyLink" data-proxy-href="https://support.google.com/androidauto/thread/4455995?msgid=15130627" rel="nofollow noopener noreferrer">ce post.</a> Voir le billet de "johr claessens" :</p>
+<figure class="post__image"><img loading="lazy"  src="https://bilool.github.io/publii/media/posts/4/Screenshot_2019-12-06-Android-auto-not-working-on-Oneplus6-phone-Android-Auto-Help.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://bilool.github.io/publii/media/posts/4/responsive/Screenshot_2019-12-06-Android-auto-not-working-on-Oneplus6-phone-Android-Auto-Help-xs.png 300w ,https://bilool.github.io/publii/media/posts/4/responsive/Screenshot_2019-12-06-Android-auto-not-working-on-Oneplus6-phone-Android-Auto-Help-sm.png 480w ,https://bilool.github.io/publii/media/posts/4/responsive/Screenshot_2019-12-06-Android-auto-not-working-on-Oneplus6-phone-Android-Auto-Help-md.png 768w ,https://bilool.github.io/publii/media/posts/4/responsive/Screenshot_2019-12-06-Android-auto-not-working-on-Oneplus6-phone-Android-Auto-Help-lg.png 1024w"  alt="issue bugs androidauto oneplus 6" width="830" height="232"></figure>
+<p>La marche à suivre est donc donnée via <a href="https://actuallydavide.com/blog/2019/04/13/how-to-remove-work-profiles-on-oneplus-devices/" target="_blank" class="externalLink ProxyLink" data-proxy-href="https://actuallydavide.com/blog/2019/04/13/how-to-remove-work-profiles-on-oneplus-devices/" rel="nofollow noopener noreferrer">le lien</a> dans son post. Elle est assez simple puisqu'elle consiste à supprimer le "user 999" via ADB et à désactiver les applications parallèles depuis l'interface du O+6.</p>
 <p>Je la remets ici en FR :</p>
 <ol>
 <li>Activer le débogage USB sur votre O+6</li>
@@ -90,7 +123,7 @@ En changeant de voiture, j'ai pu expérimenter les joies d'AndroidAuto avec l'é
             <category term="64bits"/>
             <category term="32bits"/>
 
-        <updated>2020-01-10T09:49:32+01:00</updated>
+        <updated>2020-07-18T13:02:27+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://bilool.github.io/publii/media/posts/3/featured_mailbox.jpg" alt="" />
@@ -101,13 +134,13 @@ En changeant de voiture, j'ai pu expérimenter les joies d'AndroidAuto avec l'é
             <![CDATA[
                     <img src="https://bilool.github.io/publii/media/posts/3/featured_mailbox.jpg" alt="" />
                 <p>Je viens de faire la mise à jour de Thunderbird 60 32 bits vers Thunderbird 68 en 64 bits sous windows 10. Et bim ! C'est le drame : le logiciel redémarre comme neuf... Tous mes paramétrages ont disparu.</p>
-<p><img class="post__image" src="https://bilool.github.io/publii/media/posts/3/thunderbird-68.1.0.jpg" alt="screenshot-00" width="793" height="327"></p>
+<figure class="post__image"><img loading="lazy"  src="https://bilool.github.io/publii/media/posts/3/thunderbird-68.1.0.jpg" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://bilool.github.io/publii/media/posts/3/responsive/thunderbird-68.1.0-xs.jpg 300w ,https://bilool.github.io/publii/media/posts/3/responsive/thunderbird-68.1.0-sm.jpg 480w ,https://bilool.github.io/publii/media/posts/3/responsive/thunderbird-68.1.0-md.jpg 768w ,https://bilool.github.io/publii/media/posts/3/responsive/thunderbird-68.1.0-lg.jpg 1024w"  alt="screenshot-00" width="793" height="327"></figure>
 <p>Bref, je rassure l'auditoire tout est bien là mais il faut indiquer à Thunderbird quel profil par défaut utiliser. Pour ce faire, voici la marche à suivre :</p>
 <ol>
-<li>Cliquez sur le "?" dans les menus déroulants de Thunderbird.<br><img class="post__image" src="https://bilool.github.io/publii/media/posts/3/Thunderbird-01.png" alt="screenshot-01" width="274" height="567"></li>
-<li>Cliquez sur "Information de dépannage"<br><img class="post__image" src="https://bilool.github.io/publii/media/posts/3/Thunderbird-02.png" alt="screenshot-02" width="274" height="566"></li>
-<li>Dans la section "Paramètres de base de l'application", cliquez sur "about:profiles" à la ligne "Profils"<br><img class="post__image" src="https://bilool.github.io/publii/media/posts/3/Thunderbird-03.png" alt="screenshot-03" width="346" height="647"></li>
-<li>A priori, deux profils s'affichent : le nouveau (Profil : default-release) qui est vierge et l'ancien (Profil : default) provenant de l'ancienne installation. Il suffit donc de définir l'ancien comme profil par défaut en cliquant sur le bouton "Définir comme profil par défaut"<br><img class="post__image" src="https://bilool.github.io/publii/media/posts/3/Thunderbird-04.png" alt="screenshot-04" width="723" height="40"></li>
+<li>Cliquez sur le "?" dans les menus déroulants de Thunderbird.<br><figure class="post__image"><img loading="lazy"  src="https://bilool.github.io/publii/media/posts/3/Thunderbird-01.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://bilool.github.io/publii/media/posts/3/responsive/Thunderbird-01-xs.png 300w ,https://bilool.github.io/publii/media/posts/3/responsive/Thunderbird-01-sm.png 480w ,https://bilool.github.io/publii/media/posts/3/responsive/Thunderbird-01-md.png 768w ,https://bilool.github.io/publii/media/posts/3/responsive/Thunderbird-01-lg.png 1024w"  alt="screenshot-01" width="274" height="567"></figure></li>
+<li>Cliquez sur "Information de dépannage"<br><figure class="post__image"><img loading="lazy"  src="https://bilool.github.io/publii/media/posts/3/Thunderbird-02.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://bilool.github.io/publii/media/posts/3/responsive/Thunderbird-02-xs.png 300w ,https://bilool.github.io/publii/media/posts/3/responsive/Thunderbird-02-sm.png 480w ,https://bilool.github.io/publii/media/posts/3/responsive/Thunderbird-02-md.png 768w ,https://bilool.github.io/publii/media/posts/3/responsive/Thunderbird-02-lg.png 1024w"  alt="screenshot-02" width="274" height="566"></figure></li>
+<li>Dans la section "Paramètres de base de l'application", cliquez sur "about:profiles" à la ligne "Profils"<br><figure class="post__image"><img loading="lazy"  src="https://bilool.github.io/publii/media/posts/3/Thunderbird-03.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://bilool.github.io/publii/media/posts/3/responsive/Thunderbird-03-xs.png 300w ,https://bilool.github.io/publii/media/posts/3/responsive/Thunderbird-03-sm.png 480w ,https://bilool.github.io/publii/media/posts/3/responsive/Thunderbird-03-md.png 768w ,https://bilool.github.io/publii/media/posts/3/responsive/Thunderbird-03-lg.png 1024w"  alt="screenshot-03" width="346" height="647"></figure></li>
+<li>A priori, deux profils s'affichent : le nouveau (Profil : default-release) qui est vierge et l'ancien (Profil : default) provenant de l'ancienne installation. Il suffit donc de définir l'ancien comme profil par défaut en cliquant sur le bouton "Définir comme profil par défaut"<br><figure class="post__image"><img loading="lazy"  src="https://bilool.github.io/publii/media/posts/3/Thunderbird-04.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://bilool.github.io/publii/media/posts/3/responsive/Thunderbird-04-xs.png 300w ,https://bilool.github.io/publii/media/posts/3/responsive/Thunderbird-04-sm.png 480w ,https://bilool.github.io/publii/media/posts/3/responsive/Thunderbird-04-md.png 768w ,https://bilool.github.io/publii/media/posts/3/responsive/Thunderbird-04-lg.png 1024w"  alt="screenshot-04" width="723" height="40"></figure></li>
 </ol>
 <p>Voilà, enjoy, tout rentre dans l'ordre, l'ancien profil est de retour.</p>
 <p>Vous pouvez en profiter pour désinstaller la version 32bits.</p>
@@ -124,7 +157,7 @@ En changeant de voiture, j'ai pu expérimenter les joies d'AndroidAuto avec l'é
             <category term="web"/>
             <category term="tech"/>
 
-        <updated>2019-06-29T14:31:47+02:00</updated>
+        <updated>2020-07-18T13:02:27+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://bilool.github.io/publii/media/posts/2/featured_code.jpg" alt="" />
@@ -153,7 +186,7 @@ En changeant de voiture, j'ai pu expérimenter les joies d'AndroidAuto avec l'é
             <category term="culture"/>
             <category term="audio"/>
 
-        <updated>2019-06-29T14:32:17+02:00</updated>
+        <updated>2020-07-18T13:02:27+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://bilool.github.io/publii/media/posts/1/featured_livres.jpg" alt="featured_livres" />
