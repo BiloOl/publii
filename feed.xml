@@ -3,7 +3,7 @@
     <title>yobyob.org</title>
     <link href="https://bilool.github.io/publii/feed.xml" rel="self" />
     <link href="https://bilool.github.io/publii" />
-    <updated>2020-10-11T15:16:50+02:00</updated>
+    <updated>2020-10-11T22:00:24+02:00</updated>
     <author>
         <name>yobi</name>
     </author>
@@ -18,7 +18,7 @@
         <id>https://bilool.github.io/publii/thunderbird-78xx-and-sync.html</id>
             <category term="thunderbird"/>
 
-        <updated>2020-10-11T15:16:23+02:00</updated>
+        <updated>2020-10-11T22:00:24+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://bilool.github.io/publii/media/posts/10/featured_mailbox-xl.jpg" alt="" />
@@ -29,7 +29,7 @@
             <![CDATA[
                     <img src="https://bilool.github.io/publii/media/posts/10/featured_mailbox-xl.jpg" alt="" />
                 <p>Voilà voilà Thunderbird 78 est arrivé, je l'adore mais tout n'est pas rose. En effet, avec les mises à jour majeures, il faut aussi que les développeurs d'extensions suivent le fil.</p>
-<p>Et là, c'est le drame, j'utilisais depuis quelques années <a href="https://addons.thunderbird.net/fr/thunderbird/addon/gcontactsync/?src=cb-dl-mostpopular">gContactSync</a> et le développeur n'a pas suivi... Bref obligé de faire les exports / imports en manuel avec les champs qui ne correspondent pas forcément... La plaie...</p>
+<p>Et là, c'est le drame, j'utilisais depuis quelques années <a href="https://addons.thunderbird.net/fr/thunderbird/addon/gcontactsync/?src=cb-dl-mostpopular">gContactSync</a> pour synchroniser mes contacts et le développeur n'a pas suivi... Bref obligé de faire les exports / imports en manuel avec les champs qui ne correspondent pas forcément... La plaie...</p>
 <h2>TBSync</h2>
 <p>C'est là que j'aime l'aspect communautaire du web. En fouillant dans les commentaires de <a href="https://addons.thunderbird.net/fr/thunderbird/addon/gcontactsync/?src=cb-dl-mostpopular">gContactSync</a>, un utilisateur m'a mis sur la piste en citant <a href="https://addons.thunderbird.net/fr/thunderbird/addon/tbsync/">TBSync</a> comme alternative.</p>
 <p>Je l'ai donc testé et c'est fonctionnel ! Et pas qu'avec les contacts mais aussi avec les calendriers. Je précise que je ne l'ai testé qu'avec des comptes Google mais c'est sensé faire le boulot avec d'autres comme icloud pour l'exemple.</p>
