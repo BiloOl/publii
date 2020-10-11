@@ -10,6 +10,25 @@
     },
     "items": [
         {
+            "id": "https://bilool.github.io/publii/facebook-bloquer-les-posts-sponsorises.html",
+            "url": "https://bilool.github.io/publii/facebook-bloquer-les-posts-sponsorises.html",
+            "title": "Facebook bloquer les posts sponsorisés",
+            "summary": "Le p'tit bout de code à rajouter dans UBlock Origin qui me&hellip;",
+            "content_html": "<p>Le p'tit bout de code à rajouter dans UBlock Origin qui me paraît bien fonctionner à l'heure d'aujourd'hui.</p>\n<p><code>facebook.com##[data-pagelet^=\"FeedUnit_\"]:has([href^=\"/ads/about/\"])<br>facebook.com##div[data-pagelet*=\"FeedUnit\"]:has(span[class] + [role*=\"n\"] &gt; span &gt; span + span)</code></p>\n<p>On copie / colle ça dans Ublock Origin → Paramètres → onglet Mes Filtres</p>\n<p>Fuck you les pubs</p>",
+            "image": "https://bilool.github.io/publii/media/posts/8/featured_socialmedias.jpg",
+            "author": {
+                "name": "yobi"
+            },
+            "tags": [
+                   "web",
+                   "tech",
+                   "facebook",
+                   "code"
+            ],
+            "date_published": "2020-10-11T14:39:30+02:00",
+            "date_modified": "2020-10-11T14:39:30+02:00"
+        },
+        {
             "id": "https://bilool.github.io/publii/pepites-video-ludiques.html",
             "url": "https://bilool.github.io/publii/pepites-video-ludiques.html",
             "title": "Pépites vidéo-ludiques",

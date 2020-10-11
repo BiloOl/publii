@@ -3,12 +3,41 @@
     <title>yobyob.org</title>
     <link href="https://bilool.github.io/publii/feed.xml" rel="self" />
     <link href="https://bilool.github.io/publii" />
-    <updated>2020-07-18T13:02:18+02:00</updated>
+    <updated>2020-10-11T14:39:30+02:00</updated>
     <author>
         <name>yobi</name>
     </author>
     <id>https://bilool.github.io/publii</id>
 
+    <entry>
+        <title>Facebook bloquer les posts sponsorisés</title>
+        <author>
+            <name>yobi</name>
+        </author>
+        <link href="https://bilool.github.io/publii/facebook-bloquer-les-posts-sponsorises.html"/>
+        <id>https://bilool.github.io/publii/facebook-bloquer-les-posts-sponsorises.html</id>
+            <category term="web"/>
+            <category term="tech"/>
+            <category term="facebook"/>
+            <category term="code"/>
+
+        <updated>2020-10-11T14:39:30+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://bilool.github.io/publii/media/posts/8/featured_socialmedias.jpg" alt="" />
+                    Le p'tit bout de code à rajouter dans UBlock Origin qui me&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://bilool.github.io/publii/media/posts/8/featured_socialmedias.jpg" alt="" />
+                <p>Le p'tit bout de code à rajouter dans UBlock Origin qui me paraît bien fonctionner à l'heure d'aujourd'hui.</p>
+<p><code>facebook.com##[data-pagelet^="FeedUnit_"]:has([href^="/ads/about/"])<br>facebook.com##div[data-pagelet*="FeedUnit"]:has(span[class] + [role*="n"] &gt; span &gt; span + span)</code></p>
+<p>On copie / colle ça dans Ublock Origin → Paramètres → onglet Mes Filtres</p>
+<p>Fuck you les pubs</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Pépites vidéo-ludiques</title>
         <author>
