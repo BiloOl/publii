@@ -3,14 +3,75 @@
     <title>yobyob.org</title>
     <link href="https://bilool.github.io/publii/feed.xml" rel="self" />
     <link href="https://bilool.github.io/publii" />
-    <updated>2020-10-11T14:39:30+02:00</updated>
+    <updated>2020-10-11T15:16:50+02:00</updated>
     <author>
         <name>yobi</name>
     </author>
     <id>https://bilool.github.io/publii</id>
 
     <entry>
-        <title>Facebook bloquer les posts sponsorisés</title>
+        <title>Thunderbird 78.x.x &amp; sync</title>
+        <author>
+            <name>yobi</name>
+        </author>
+        <link href="https://bilool.github.io/publii/thunderbird-78xx-and-sync.html"/>
+        <id>https://bilool.github.io/publii/thunderbird-78xx-and-sync.html</id>
+            <category term="thunderbird"/>
+
+        <updated>2020-10-11T15:16:23+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://bilool.github.io/publii/media/posts/10/featured_mailbox-xl.jpg" alt="" />
+                    Voilà voilà Thunderbird 78 est arrivé, je l'adore mais tout n'est pas&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://bilool.github.io/publii/media/posts/10/featured_mailbox-xl.jpg" alt="" />
+                <p>Voilà voilà Thunderbird 78 est arrivé, je l'adore mais tout n'est pas rose. En effet, avec les mises à jour majeures, il faut aussi que les développeurs d'extensions suivent le fil.</p>
+<p>Et là, c'est le drame, j'utilisais depuis quelques années <a href="https://addons.thunderbird.net/fr/thunderbird/addon/gcontactsync/?src=cb-dl-mostpopular">gContactSync</a> et le développeur n'a pas suivi... Bref obligé de faire les exports / imports en manuel avec les champs qui ne correspondent pas forcément... La plaie...</p>
+<h2>TBSync</h2>
+<p>C'est là que j'aime l'aspect communautaire du web. En fouillant dans les commentaires de <a href="https://addons.thunderbird.net/fr/thunderbird/addon/gcontactsync/?src=cb-dl-mostpopular">gContactSync</a>, un utilisateur m'a mis sur la piste en citant <a href="https://addons.thunderbird.net/fr/thunderbird/addon/tbsync/">TBSync</a> comme alternative.</p>
+<p>Je l'ai donc testé et c'est fonctionnel ! Et pas qu'avec les contacts mais aussi avec les calendriers. Je précise que je ne l'ai testé qu'avec des comptes Google mais c'est sensé faire le boulot avec d'autres comme icloud pour l'exemple.</p>
+<p>Par contre, il faudra bien penser à rajouter les modules complémentaires <a href="https://addons.thunderbird.net/fr/thunderbird/addon/dav-4-tbsync/?src=search">Provider for CalDAV &amp; CardDAV</a> et <a href="https://addons.thunderbird.net/fr/thunderbird/addon/eas-4-tbsync/?src=search">Provider for Exchange ActiveSync</a> en fonction du type de compte qu'on utilise.</p>
+<p>Par contre, c'est toujours aussi trivial pour trouver le panneau de configuration du module dans Thunderbird. L'accès est dans "outils" mais il ne s'affiche pas le menu déroulant du bouton principal. Pour y avoir accès, il faut appuyer sur ALT pour afficher les menus déroulants depuis le haut de la fenêtre principale et ensuite "Outils → Paramètres de Synchronisation (TBSync)".</p>
+<p>Enjoy !</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>IGNRando&#x27;</title>
+        <author>
+            <name>yobi</name>
+        </author>
+        <link href="https://bilool.github.io/publii/ignrando.html"/>
+        <id>https://bilool.github.io/publii/ignrando.html</id>
+            <category term="web"/>
+            <category term="nature"/>
+            <category term="localisation"/>
+            <category term="gps"/>
+
+        <updated>2020-10-11T15:16:50+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://bilool.github.io/publii/media/posts/9/featured_trekkingmap.jpg" alt="" />
+                    Enfin une application de géolocalisation exploitant les cartes IGN pratique et facile&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://bilool.github.io/publii/media/posts/9/featured_trekkingmap.jpg" alt="" />
+                <p>Enfin une application de géolocalisation exploitant les cartes IGN  pratique et facile d'utilisation : <a href="https://ignrando.fr/boutique/appli-randonnee-ignrando">ignrando'</a></p>
+<p>Elle est complémentaire du portail IGNRANDO qui permet de faire pas mal de chose comme éditer, créer ses parcours au préalable.</p>
+<p>J'ai testé plusieurs applications de ce type par le passé (depuis windows mobile, c'est dire...). C'est certainement la plus claire, la plus simple et complète que j'ai eu entre les mains à ce jour.</p>
+<p>C'est aussi l'une des moins cher : utilisation gratuite de l'application et si on veut les fonds de carte l'abonnement annuel n'est que de 16.99€. Dans tous les cas, on peut se faire les dents au préalable : 7 jours sont offerts avec toutes les cartes.</p>
+<p>Bref, elle fonctionne sur Android et IOs. Une fiche dédiée à l'application est disponible sur <a href="https://ignrando.fr/boutique/appli-randonnee-ignrando">ignrando'</a>.</p>
+<p>Bisous.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Facebook, bloquer les publications sponsorisées</title>
         <author>
             <name>yobi</name>
         </author>
@@ -21,7 +82,7 @@
             <category term="facebook"/>
             <category term="code"/>
 
-        <updated>2020-10-11T14:39:30+02:00</updated>
+        <updated>2020-10-11T14:40:17+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://bilool.github.io/publii/media/posts/8/featured_socialmedias.jpg" alt="" />
