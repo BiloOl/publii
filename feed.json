@@ -14,7 +14,7 @@
             "url": "https://bilool.github.io/publii/windows-and-mtp.html",
             "title": "Windows &amp; MTP",
             "summary": "Le truc reloud : impossible d'avoir accès à l'espace de stockage de&hellip;",
-            "content_html": "<p>Le truc reloud : impossible d'avoir accès à l'espace de stockage de mon androphone sous TWRP et sous Lineage depuis l'explorateur fichiers de Windows. Le pilote ne s'installe pas depuis le gestionnaire de périphériques. </p>\n<p>Bref, la marche à suivre pour installer le pilote standard de Microsoft est la suivante :</p>\n<ol>\n<li>Connecter l'androphone au PC via un câble USB</li>\n<li>Ouvrir le gestionnaire de périphériques</li>\n<li>Dans l'onglet \"Affichage\" → \"Afficher les périphériques cachés\"</li>\n<li>Clic droit sur le \"Périphérique inconnu\" → \"Propriétés\"</li>\n<li>Sur l'onglet \"Pilote\" → \"Mettre à jour le pilote\"</li>\n<li>\"Rechercher le pilote sur mon ordinateur\"</li>\n<li>\"Choisir parmi une liste de périphériques sur mon ordinateur\"</li>\n<li>Clique sur \"Appareil Mobile\" → dans la nouvelle fenêtre choisir \"Microsoft\" dans l'encart de gauche et \"Périphérique USB MTP\" dans l'encart de droite</li>\n</ol>\n<p>Vive la simplicité...</p>",
+            "content_html": "<p>Le truc reloud : impossible d'avoir accès à l'espace de stockage de mon androphone sous TWRP et sous Lineage depuis l'explorateur fichiers de Windows. Le pilote ne s'installe pas depuis le gestionnaire de périphériques. </p>\n<p>Bref, la marche à suivre pour installer le pilote standard de Microsoft est la suivante :</p>\n<ol>\n<li>Connecter l'androphone au PC via un câble USB</li>\n<li>Ouvrir le gestionnaire de périphériques</li>\n<li>Dans l'onglet \"Affichage\" → \"Afficher les périphériques cachés\"</li>\n<li>Clic droit sur le \"Périphérique inconnu\" → \"Propriétés\"</li>\n<li>Sur l'onglet \"Pilote\" → \"Mettre à jour le pilote\"</li>\n<li>\"Rechercher le pilote sur mon ordinateur\"</li>\n<li>\"Choisir parmi une liste de périphériques sur mon ordinateur\"</li>\n<li>Clique sur \"Appareil Mobile\" → dans la nouvelle fenêtre choisir \"Microsoft\" dans l'encart de gauche et \"Périphérique USB MTP\" dans l'encart de droite</li>\n</ol>\n<p>Vive la simplicité...</p>\n<p>Image par <a href=\"https://pixabay.com/fr/users/jplenio-7645255/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5236879\">jplenio</a> de <a href=\"https://pixabay.com/fr/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5236879\">Pixabay</a></p>",
             "image": "https://bilool.github.io/publii/media/posts/11/featured_windows.jpg",
             "author": {
                 "name": "yobi"
@@ -26,7 +26,7 @@
                    "android"
             ],
             "date_published": "2021-04-10T15:04:11+02:00",
-            "date_modified": "2021-04-10T15:05:59+02:00"
+            "date_modified": "2021-04-10T15:07:04+02:00"
         },
         {
             "id": "https://bilool.github.io/publii/thunderbird-78xx-and-sync.html",
