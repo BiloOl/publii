@@ -3,7 +3,7 @@
     <title>yobyob.org</title>
     <link href="https://bilool.github.io/publii/feed.xml" rel="self" />
     <link href="https://bilool.github.io/publii" />
-    <updated>2021-04-10T15:04:11+02:00</updated>
+    <updated>2021-04-10T15:05:59+02:00</updated>
     <author>
         <name>yobi</name>
     </author>
@@ -21,7 +21,7 @@
             <category term="microsoft"/>
             <category term="android"/>
 
-        <updated>2021-04-10T15:04:11+02:00</updated>
+        <updated>2021-04-10T15:05:59+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://bilool.github.io/publii/media/posts/11/featured_windows.jpg" alt="" />
@@ -39,7 +39,7 @@
 <li>Dans l'onglet "Affichage" → "Afficher les périphériques cachés"</li>
 <li>Clic droit sur le "Périphérique inconnu" → "Propriétés"</li>
 <li>Sur l'onglet "Pilote" → "Mettre à jour le pilote"</li>
-<li>"Rechercher le pilote sur mon ordinateure"</li>
+<li>"Rechercher le pilote sur mon ordinateur"</li>
 <li>"Choisir parmi une liste de périphériques sur mon ordinateur"</li>
 <li>Clique sur "Appareil Mobile" → dans la nouvelle fenêtre choisir "Microsoft" dans l'encart de gauche et "Périphérique USB MTP" dans l'encart de droite</li>
 </ol>
